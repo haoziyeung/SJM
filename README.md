@@ -14,7 +14,11 @@ Installation && usage
    `./configure --prefix=/path/to/install/dir/`  
    `make`  
    `make install`  
-3. usage  
-   prepare a sjm jobfile such as [example.sjm](https://github.com/vanNul/SJM/tree/master/doc/example.sjm) and run  
-   `sjm example.sjm`  
-   you'd better check [manual](https://github.com/vanNul/SJM/tree/master/doc/MANUAL.txt) for more help 
+3. usage    
+3.1 simple usage   
+       prepare a sjm jobfile such as [example.sjm](https://github.com/vanNul/SJM/tree/master/doc/example.sjm) and run  
+      `sjm example.sjm`   
+3.2 advanced usage  
+      implement a pipeline based on sjm with various control, eg. [anapipe](https://github.com/vanNul/anapipe)    
+  you'd better check [manual](https://github.com/vanNul/SJM/tree/master/doc/MANUAL.txt) for more help 
+
