@@ -1,0 +1,9 @@
+digraph jobs {
+    jobA[color=gray];
+    jobA -> jobC;
+    jobB[color=gray];
+    jobB -> jobC;
+    jobC[color=gray];
+    jobC -> jobD;
+    jobD[color=gray];
+}
