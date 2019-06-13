@@ -15,13 +15,17 @@ Installation && usage
    `make`
    `make install`
 3. usage
-3.1 simple usage
+
+ 3.1 simple usage  
        prepare a sjm jobfile such as [example.sjm](https://github.com/vanNul/SJM/tree/master/doc/example.sjm) and run
-      `sjm example.sjm`
-3.2 advanced usage
+      `sjm example.sjm`  
+
+ 3.2 advanced usage  
       implement a pipeline based on sjm with various control, eg. [anapipe](https://github.com/vanNul/anapipe)
-  you'd better check [manual](https://github.com/vanNul/SJM/tree/master/doc/MANUAL.txt) for more help
-3.3 visualizing the DAG of jobs
+  you'd better check [manual](https://github.com/vanNul/SJM/tree/master/doc/MANUAL.txt) for more help  
+
+ 3.3 visualizing the DAG of jobs  
+
 * `sjm -r doc/example.sjm > doc/example.dot`
 * `perl doc/convert_sjmDAG_2_stdDAG.pl doc/example.dot|dot -Tpng > doc/example.png` (you need install [graphviz](http://www.graphviz.org/) package)
 
